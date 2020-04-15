@@ -1,0 +1,19 @@
+{
+  "name": "rpitemp-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@fooloomanzoo/datetime-picker": "^3.0.9",
+    "chart.js": "^2.9.3",
+    "firebase": "^7.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

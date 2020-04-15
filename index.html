@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chart</title>
+  </head>
+  <body>
+    <form>
+      <p class="from">
+        From:<br />
+        <datetime-picker></datetime-picker>
+      </p>
+      <p class="to">
+        To:<br />
+        <datetime-picker></datetime-picker>
+      </p>
+      <button class="fetch">fetch</button>
+    </form>
+    <canvas id="chart" width="200" height="200"></canvas>
+    <script src="./main.js"></script>
+    <script
+      type="module"
+      src="node_modules/@fooloomanzoo/datetime-picker/datetime-picker.js"
+    ></script>
+  </body>
+</html>
